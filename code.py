@@ -7,4 +7,4 @@ data = {
     "citty":["Narowal", "Narowal", "Narowal"]
 }
 df = pd.DataFrame(data)
-df
+df.to_csv(df, "data_sample")
